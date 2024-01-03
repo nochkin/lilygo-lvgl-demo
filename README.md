@@ -12,13 +12,18 @@ The project uses LovyanGFX for T-Display and Arduino GFX for T-Display-S3 AMOLED
 
 ## Compilation
 Compile for T-Display:
+
 ```pio run -e t-display```
 
+Compile and upload:
+
+```pio run -e t-display -t upload```
+
 Compile for T-Display-S3 AMOLED:
+
 ```pio run -e t-amoled```
 
-If you wish to upload once compiled:
-```pio run -e t-display -t upload```
-Or
+Compile and upload:
+
 ```pio run -e t-amoled -t t-amoled```
 
